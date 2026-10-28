@@ -1,0 +1,20 @@
+# Ambientes virtuais
+venv/
+env/
+__pycache__/
+
+# Credenciais e Tokens Google API
+credenciais.json
+token.json
+
+# Pastas de dados (ignorar os arquivos dentro delas, mas manter a pasta)
+entrada/*
+convertidos/*
+processados/*
+logs/*
+
+# Manter as pastas vazias no git
+!entrada/.gitkeep
+!convertidos/.gitkeep
+!processados/.gitkeep
+!logs/.gitkeep
